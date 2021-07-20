@@ -3,7 +3,17 @@
 
 .bgparch {
 	background-image: url("background.jpg");
-	background-color: #9f926f;
+	background-color: #EFEBDB;
+	border-width:thin;
+	border-style:solid;
+	border-color:#58170D;
+	align-self: center;  
+	padding:15px; 
+	margin-left:20%;
+	margin-right:20%;
+}
+.bgform {
+	background-color: #EFEBDB;
 	border-width:thin;
 	border-style:solid;
 	border-color:#58170D;
