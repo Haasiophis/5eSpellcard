@@ -4,36 +4,53 @@
 <meta charset="utf-8">
 <title>blake is big dumb</title>
 <link rel="stylesheet" href="stylesheet.css">
+	<!--<script>
+		var spellname = "Spell Name"
+		function submitInfo(){
+			spellname = document.getElementById("newspellname").innerHTML;
+			document.getElementById("oldspellname").innerHTML = spellname;
+		}
+	</script>-->
 </head>
 
 <body>
 	<div class ="bgparch">
-		<text class="title">SPELL NAME</text>
+		<text class="title" id="oldspellname" contentEditable ="true">SPELL NAME</text>
 		<br>
 		<text>
-			<i># level school</i>
+			<i><text id="level" contentEditable ="true">#</text> level <text id="school" contentEditable ="true">school</text></i>
 		</text>
 		<br>
 		<br>
 		<text class="subtitle">Casting Time:</text> 
-		<text> 69 hours</text>
+		<text contentEditable ="true"> casting time here</text>
 		<br>
 		<text class="subtitle">Range:</text>
-		<text>your mom</text>
+		<text contentEditable ="true">range here</text>
 		<br>
 		<text class="subtitle">Components:</text>
-		<text>your mom</text>
+		<text contentEditable ="true">V, S, M</text>
 		<br>
 		<text class="subtitle">Duration:</text>
-		<text>69 days</text>
+		<text contentEditable ="true">duration here</text>
 		<br>
 		<text class="subtitle">Classes:</text>
-		<text>none.</text>
+		<text contentEditable ="true">classes here</text>
 		<br>
 		<br>
-		<text>Description here.</text>
+		<text contentEditable ="true">Description here.</text>
 		<br>
-		<text class="subtitle"><i>At Higher Levels.</i></text>
+		<text class="subtitle"><i>At Higher Levels.  </i></text><text contentEditable ="true">Description here.</text>
 	</div>
+	<br>
+	<!--<div class="bgform">		
+	<text class="subtitle">Spell Name:</text>
+		<br>
+  <input type="text" id="newspellname" onkeyup="submitInfo()"/>
+			<br>
+  <label for="newschoolname"><text class="subtitle">School:</text></label><br>
+  <input type="text" id="newschoolname">
+			<br>
+	</div> -->
 </body>
 </html>
